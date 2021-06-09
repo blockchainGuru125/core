@@ -1,7 +1,7 @@
 {
-  "name": "@heswap/core",
+  "name": "@heswap/core-libs",
   "description": "Core contracts for the Heswap protocol",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "homepage": "https://heswap.org",
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "node": ">=10"
   },
   "devDependencies": {
+    "@truffle/hdwallet-provider": "1.0.21",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
@@ -30,8 +31,7 @@
     "rimraf": "^3.0.0",
     "solc": "0.5.16",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3",
-    "@truffle/hdwallet-provider": "1.0.21"
+    "typescript": "^3.7.3"
   },
   "scripts": {
     "lint": "yarn prettier ./test/*.ts --check",
