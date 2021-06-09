@@ -1,6 +1,6 @@
-# Biswap Factory
+# Heswap Factory
 
-In-depth documentation on Biswap is building at [docs.biswap.org](https://docs.biswap.org/).
+In-depth documentation on Biswap is building at [docs.heswap.org](https://docs.heswap.org/).
 
 # Local Development
 
