@@ -23,6 +23,8 @@
     "@truffle/hdwallet-provider": "1.0.21",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
+	"truffle-plugin-verify": "0.5.8", 
+	"dotenv": "^8.2.0",
     "chai": "^4.2.0",
     "ethereum-waffle": "^2.4.1",
     "ethereumjs-util": "^6.2.0",
