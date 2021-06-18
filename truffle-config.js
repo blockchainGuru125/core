@@ -7,16 +7,16 @@ module.exports = {
     'truffle-plugin-verify'
   ],
   api_keys:{
-    hecoinfo: process.env.HECO_API_KEY
+	bscscan: process.env.BSC_API_KEY
   },
   networks: {
     testnet: {
-      provider: () => new HDWalletProvider(process.env.MNEMONIC, 'https://http-testnet.hecochain.com'),
-      network_id: 256
+      provider: () => new HDWalletProvider(process.env.MNEMONIC, 'https://data-seed-prebsc-1-s1.binance.org:8545'),
+      network_id: 97
     },
     mainnet: {
-      provider: () => new HDWalletProvider(process.env.MNEMONIC, 'https://http-mainnet.hecochain.com'),
-      network_id: 128
+      provider: () => new HDWalletProvider(process.env.MNEMONIC, 'https://bsc-dataseed.binance.org/'),
+      network_id: 56
     }
   },
 
